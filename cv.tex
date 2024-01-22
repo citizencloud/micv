@@ -1,0 +1,150 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Professional Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the cv.cls file to be in the same directory as the
+% .tex file. The cv.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{cv} % Use the cv.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{hyperref}
+
+\newsectionwidth{0pt} % Stops section indenting
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND ADDRESS(ES) SECTION
+%----------------------------------------------------------------------------------------
+
+\name{Christopher Whitfield\\ \\} % Your name at the top
+
+% If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
+
+\address{{\bf Contact} \\ yo@chriswhitfield.dev \\ (206) 488-3239 \\ \href{https://www.linkedin.com/in/cwit/}{linkedin.com/in/cwit} \\ } % Your address 1
+
+\address{{\bf Address} \\ 6746 24th Ave NW \\ Seattle, WA 98117 }
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+ \section{\centerline{OBJECTIVE}}
+
+ \vspace{8pt} % Gap between title and text
+
+ Versatile and results-oriented engineer with a proven track record of designing, implementing, and optimizing scalable and resilient distributed systems. Seeking a challenging role to leverage expertise in cloud computing, networking, and operational excellence to contribute to the success of innovative software projects.
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{PROFESSIONAL EXPERIENCE}} 
+
+\vspace{8pt} % Gap between title and text
+
+{\bf Amazon Web Services} \hfill January 2018 -- Present \\
+{\sl Senior Software Engineer - Salesforce Success Central }
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Technical lead of a multi-tenant \textit{Salesforce on AWS} platform that renders an arbitrary Salesforce Organization as a resource accessible from the public cloud.
+\item Directly responsible for a working group of 10 engineers, scaling the group's velocity through the development of individual workstreams and establising tech leads within each stream.
+\item Interfacing across the organization to align teams road map with the strategic direction of the broader AWS Sales and Marketing businesses. 
+\end{itemize}
+{\sl Software Engineer - Sales, Marketing, and Global Service Operations }
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Led the design and implementation of a data processing engine that ingests Salesforce events in real time and publishes to various AWS resources, including Kinesis, DynamoDB, and EventBridge.
+\item Developed a distributed microservices architecture with services written primarily in Java and Go.
+\item Worked to improve system reliability through relentless emphasis on data-driven operational metrics.
+\end{itemize}
+{\sl Application Engineer - Global Business Operations }
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Implemented decision support systems that provide authoritative business intelligence about AWS customers and prospects to improve sales and marketing effectiveness. 
+\item Built source of truth repository for organizations by sourcing data from various third parties and matching them to accounts in CRM system
+\end{itemize}
+
+{\bf Informatica } \hfill July 2014 -- December 2017 \\
+{\sl Senior Consultant - Cloud/MDM }
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Architected and developed a Reference Data Management solution for major healthcare system to standardize source data from 30+ source systems, resulting in a centrally maintained repository providing the needed consistency for reporting and analytics.
+\end{itemize}
+
+{\bf San Diego Housing Commission } \hfill July 2012 -- May 2014 \\
+{\sl Business Systems Analyst }
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Led the integration of new housing management software to ensure compatibility with existing systems
+\item Streamlined housing application workflows, reducing processing times by 25\% 
+\end{itemize} 
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{EDUCATION}} 
+
+\vspace{8pt} % Gap between title and text
+
+{\sl Bachelor of Science}, Economics \\ 
+{\sl Bachelor of Arts}, Urban Planning \\ 
+University of California, San Diego \hfill 2014
+
+%----------------------------------------------------------------------------------------
+ 
+% \vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{\centerline{SPEAKING AND WRITING}} 
+
+% \vspace{15pt} % Gap between title and text
+% \begin{itemize} \itemsep -2pt % Reduce space between items
+% \item ``Job Analysis - A True Picture," Journal of Headhunters, Vol. 5, Number 3. Fall 1990 
+% \item ``The Fine Tuning of Interpersonal Skills," Journal of Recruiting/Hiring, Vol. 16, Number 7, August 1990
+% \end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+
+% \vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{\centerline{INTERESTS}} 
+
+% \vspace{-5pt} % Reduce space between section title and contents
+
+% \begin{center}
+% Classical piano, jazz, bodybuilding/aerobic exercise, cooking, dancing
+% \end{center} 
+
+%----------------------------------------------------------------------------------------
+
+\end{resume} 
+\end{document}
